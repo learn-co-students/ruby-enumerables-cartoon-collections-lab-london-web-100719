@@ -8,6 +8,8 @@ end
 
 def long_planeteer_calls(arr)
   arr.select {|item| item.length > 4}.size > 0 ? true : false
+  # can also do
+  # arr.any? { |item| item.length > 4 }
 end
 
 def find_the_cheese(arr)
